@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Welcome</title>
+</head>
+<body>
+	<h2>Technologies used</h2><br/><br/>
+	<ul>
+		<li>Rest-Jersey Implementation</li>
+		<li>JAXB-(for marshalling and unmarshalling json/xml types)</li>
+		<li>Spring Data JPA</li>
+		<li>Hibernate Implementation</li>
+		<li>MySql</li>
+		<li>Tomcat 7</li>
+		<li>Advanced Rest client (chrome extension)</li>
+	</ul>
+	<br/><br/><br/>
+	<p>	To get started deploy the application in tomcat and hit
+		"http://localhost:yourport/ZenDirectory/rest/query/insert" tables will be
+		created automatically and inserts data. for more search options insert	
+		some other data in "public void insertPerson()" method from EmployeeDaoImpl class. 
+	</p>
+	<p> Open advance rest client and enter url
+		http://localhost:9958/ZenDirectory/rest/query/name?name='saam' and add
+		headers "accept":"application/json" or "application/xml" and the
+		response will display in specified format below. 
+	</p>
+	<p> I implemented Dao in JPA specific so we can change ORM from Hibernate to any other 
+		ORM framework by adding jars and small configuration changes in spring-configuration.xml file.
+	</p>
+	<p>note: find screenshots inside screeshots folder under web-inf
+</body>
+</html>
+
+
+
+
+
