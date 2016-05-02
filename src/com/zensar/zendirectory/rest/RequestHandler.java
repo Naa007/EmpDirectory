@@ -40,6 +40,7 @@ public class RequestHandler {
 			return employeeEntityToPojo(entity);
 		} catch (Exception e) {
 			e.printStackTrace();
+			System.out.println("GIT test");
 			return null;
 		}
 	}
